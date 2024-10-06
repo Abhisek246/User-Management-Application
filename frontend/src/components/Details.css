@@ -1,0 +1,75 @@
+.details-container-one{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    width: 90%;
+    margin-left: 4rem;
+}
+
+.details-container-one span{
+    font-weight: 600;
+}
+
+.user-profile{
+    text-align: center;
+}
+
+.user-profile p{
+    margin: 0 0.5rem 0.5rem 0;
+}
+
+.user-img{
+    width: 10rem;
+}
+
+.details-container-two {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 20px 0;
+    font-size: 1rem;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px 15px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #eaeaea;
+}
+
+/* Sub-columns under Address and Company */
+thead tr:nth-child(2) th {
+    background-color: #eaeaea;
+    font-weight: normal;
+    text-align: center;
+}
+
+.edit-btn{
+    position: absolute;
+    right: 80px;
+    top: 60px;
+    background-color: #5997f3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
